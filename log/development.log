@@ -1,0 +1,42 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-07-14 18:00:40 -0400
+Served asset /rails.png - 200 OK  (2ms)  (pid 10434)
+
+
+Started GET "/test/index" for 127.0.0.1 at 2011-07-14 18:00:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/test/index"):
+  
+
+Rendered /home/lakshmi/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0.rc4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (93.2ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2011-07-14 18:00:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/test"):
+  
+
+Rendered /home/lakshmi/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0.rc4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2011-07-14 18:01:57 -0400
+  Processing by TestController#index as HTML
+Rendered test/index.html.erb within layouts/application (86.6ms)
+Completed 200 OK in 317ms (Views: 316.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2011-07-14 18:01:58 -0400
+Compiled ~/Desktop/sample/app/assets/stylesheets/application.css  (6ms)  (pid 10461)
+Compiled ~/Desktop/sample/app/assets/stylesheets/test.css.scss  (51ms)  (pid 10461)
+Compiled ~/Desktop/sample/app/assets/stylesheets/application.css  (0ms)  (pid 10461)
+Served asset /application.css - 200 OK  (62ms)  (pid 10461)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2011-07-14 18:01:58 -0400
+Compiled ~/Desktop/sample/app/assets/javascripts/application.js  (5ms)  (pid 10461)
+Compiled ~/.rvm/gems/ruby-1.9.2-p180/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery.js  (22ms)  (pid 10461)
+Compiled ~/.rvm/gems/ruby-1.9.2-p180/gems/jquery-rails-1.0.12/vendor/assets/javascripts/jquery_ujs.js  (12ms)  (pid 10461)
+Compiled ~/Desktop/sample/app/assets/javascripts/test.js.coffee  (1069ms)  (pid 10461)
+Compiled ~/Desktop/sample/app/assets/javascripts/application.js  (0ms)  (pid 10461)
+Served asset /application.js - 200 OK  (1116ms)  (pid 10461)
