@@ -18,7 +18,7 @@ role :app, "testapp.com"                          # This may be the same as your
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
-#testmodifictaions
+
  If you are using Passenger mod_rails uncomment this:
  namespace :deploy do
    task :start do ; end
